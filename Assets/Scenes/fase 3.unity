@@ -1,0 +1,4229 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 10
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 705507994}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 13
+  m_BakeOnSceneLoad: 0
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 500
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 500
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 2
+    m_PVRDenoiserTypeDirect: 0
+    m_PVRDenoiserTypeIndirect: 0
+    m_PVRDenoiserTypeAO: 0
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 0
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 112000000, guid: 35e37cbc316aa7a4eaa0cb88ca6efc5c, type: 2}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 3
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    buildHeightMesh: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &56323092
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 56323094}
+  - component: {fileID: 56323095}
+  m_Layer: 0
+  m_Name: Game Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &56323094
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 56323092}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &56323095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 56323092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5b6da9b7e592dd4cb8be9d804b25fed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moedasNaFase: 0
+  somDaMoeda: {fileID: 1504151958}
+  nomeDaProximaFase: fase 1
+--- !u!1001 &105196335
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6233166069334165983, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_Name
+      value: Bola do Perigo (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.7504406
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.632656
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.7316647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+--- !u!1001 &105248382
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8603999358626752622, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.9923468
+      objectReference: {fileID: 0}
+    - target: {fileID: 8603999358626752622, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.87992907
+      objectReference: {fileID: 0}
+    - target: {fileID: 8603999358626752622, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.2979364
+      objectReference: {fileID: 0}
+    - target: {fileID: 8603999358626752622, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8603999358626752622, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8603999358626752622, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8603999358626752622, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8603999358626752622, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8603999358626752622, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8603999358626752622, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8947627131439067860, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+      propertyPath: m_Name
+      value: Coin (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+--- !u!1 &167624798
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 167624802}
+  - component: {fileID: 167624801}
+  - component: {fileID: 167624800}
+  - component: {fileID: 167624799}
+  m_Layer: 0
+  m_Name: Piso
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &167624799
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 167624798}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &167624800
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 167624798}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a5c1820180d4c11499b91229da8462e1, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &167624801
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 167624798}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &167624802
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 167624798}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 20, y: 0.5, z: 20}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &183925769
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6233166069334165983, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_Name
+      value: Bola do Perigo (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.1358909
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.632656
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.7666559
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+--- !u!1001 &195256972
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6233166069334165983, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_Name
+      value: Bola do Perigo (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.2781065
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.632656
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.0915546
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+--- !u!1001 &200203252
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6233166069334165983, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_Name
+      value: Bola do Perigo (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.4857807
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.632656
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+--- !u!1001 &215029752
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6233166069334165983, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_Name
+      value: Bola do Perigo (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.6489067
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.632656
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.4993467
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+--- !u!1001 &219453271
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6233166069334165983, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_Name
+      value: Bola do Perigo (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.7532477
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.632656
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -7.4132133
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+--- !u!1001 &263704817
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8603999358626752622, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.5087614
+      objectReference: {fileID: 0}
+    - target: {fileID: 8603999358626752622, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.87992907
+      objectReference: {fileID: 0}
+    - target: {fileID: 8603999358626752622, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -8.370764
+      objectReference: {fileID: 0}
+    - target: {fileID: 8603999358626752622, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8603999358626752622, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8603999358626752622, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8603999358626752622, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8603999358626752622, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8603999358626752622, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8603999358626752622, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8947627131439067860, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+      propertyPath: m_Name
+      value: Coin (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+--- !u!1001 &320696119
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6233166069334165983, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_Name
+      value: Bola do Perigo (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.719758
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.632656
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.8730764
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+--- !u!1001 &390381525
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6233166069334165983, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_Name
+      value: Bola do Perigo (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.1288486
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.632656
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -8.6409855
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+--- !u!1001 &428899139
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6233166069334165983, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_Name
+      value: Bola do Perigo (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.1437616
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.632656
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -8.620825
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+--- !u!1001 &481543491
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6233166069334165983, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_Name
+      value: Bola do Perigo (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.5050898
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.632656
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6.367695
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+--- !u!1001 &515047399
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6233166069334165983, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_Name
+      value: Bola do Perigo (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.665136
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.632656
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.5991783
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+--- !u!1001 &543841435
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6233166069334165983, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_Name
+      value: Bola do Perigo (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.1455746
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.632656
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -7.3473396
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+--- !u!1001 &623765297
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6233166069334165983, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_Name
+      value: Bola do Perigo (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.2324998
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.632656
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.6596775
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+--- !u!1001 &678434854
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6233166069334165983, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_Name
+      value: Bola do Perigo (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.632656
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.4374237
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+--- !u!1001 &698262103
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6233166069334165983, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_Name
+      value: Bola do Perigo (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.9455268
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.632656
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.8173084
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+--- !u!1 &705507993
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 705507995}
+  - component: {fileID: 705507994}
+  m_Layer: 0
+  m_Name: Directional Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &705507994
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705507993}
+  m_Enabled: 1
+  serializedVersion: 11
+  m_Type: 1
+  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 1
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ForceVisible: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+  m_LightUnit: 1
+  m_LuxAtDistance: 1
+  m_EnableSpotReflector: 1
+--- !u!4 &705507995
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705507993}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &720660097
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 720660101}
+  - component: {fileID: 720660100}
+  - component: {fileID: 720660099}
+  - component: {fileID: 720660098}
+  m_Layer: 0
+  m_Name: parede direita
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &720660098
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 720660097}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &720660099
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 720660097}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 3c38a3eb872776447855f2a97080d6ae, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &720660100
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 720660097}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &720660101
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 720660097}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 10, y: 0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 21}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &731082293
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 731082297}
+  - component: {fileID: 731082296}
+  - component: {fileID: 731082295}
+  - component: {fileID: 731082294}
+  m_Layer: 0
+  m_Name: parede da frente
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &731082294
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 731082293}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &731082295
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 731082293}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 3c38a3eb872776447855f2a97080d6ae, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &731082296
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 731082293}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &731082297
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 731082293}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.5, z: 10}
+  m_LocalScale: {x: 20, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &792903615
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6233166069334165983, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_Name
+      value: Bola do Perigo (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.787399
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.632656
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.919854
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+--- !u!1001 &803473513
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6233166069334165983, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_Name
+      value: Bola do Perigo (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.3677926
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.632656
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -7.3973913
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+--- !u!1001 &812519998
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6233166069334165983, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_Name
+      value: Bola do Perigo (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.1057816
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.632656
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.7288074
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+--- !u!1001 &840042522
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6233166069334165983, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_Name
+      value: Bola do Perigo (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.94499826
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.632656
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -7.5385485
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+--- !u!1001 &883575512
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6233166069334165983, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_Name
+      value: Bola do Perigo (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.277586
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.632656
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.4522715
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+--- !u!1001 &885884453
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6233166069334165983, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_Name
+      value: Bola do Perigo (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.1843162
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.632656
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.293719
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+--- !u!1001 &935632415
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8603999358626752622, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.7349606
+      objectReference: {fileID: 0}
+    - target: {fileID: 8603999358626752622, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.87992907
+      objectReference: {fileID: 0}
+    - target: {fileID: 8603999358626752622, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -8.51491
+      objectReference: {fileID: 0}
+    - target: {fileID: 8603999358626752622, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8603999358626752622, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8603999358626752622, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8603999358626752622, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8603999358626752622, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8603999358626752622, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8603999358626752622, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8947627131439067860, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+      propertyPath: m_Name
+      value: Coin (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+--- !u!1 &963194225
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 963194228}
+  - component: {fileID: 963194227}
+  - component: {fileID: 963194226}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &963194226
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+--- !u!20 &963194227
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &963194228
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.35836798, y: 0, z: 0, w: 0.93358046}
+  m_LocalPosition: {x: 0, y: 10, z: -13}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 42, y: 0, z: 0}
+--- !u!1001 &976870374
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6233166069334165983, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_Name
+      value: Bola do Perigo (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.261222
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.632656
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.5482092
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+--- !u!1001 &992741331
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6233166069334165983, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_Name
+      value: Bola do Perigo (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.2479005
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.632656
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.761241
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+--- !u!1001 &1078115655
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6233166069334165983, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_Name
+      value: Bola do Perigo (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -8.781198
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.632656
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.03466034
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+--- !u!1001 &1088516302
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6233166069334165983, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_Name
+      value: Bola do Perigo (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.721113
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.632656
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.4963303
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+--- !u!1001 &1091405257
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6233166069334165983, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_Name
+      value: Bola do Perigo (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.2663317
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.632656
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.64500237
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+--- !u!1001 &1118138177
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6233166069334165983, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_Name
+      value: Bola do Perigo (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.2355013
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.632656
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.9171267
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+--- !u!1001 &1177651875
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6233166069334165983, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_Name
+      value: Bola do Perigo (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.2766323
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.632656
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.346983
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+--- !u!1001 &1227224010
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6233166069334165983, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_Name
+      value: Bola do Perigo (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.710698
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.632656
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.4539776
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+--- !u!1001 &1249100669
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8603999358626752622, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.613795
+      objectReference: {fileID: 0}
+    - target: {fileID: 8603999358626752622, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.87992907
+      objectReference: {fileID: 0}
+    - target: {fileID: 8603999358626752622, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.8284883
+      objectReference: {fileID: 0}
+    - target: {fileID: 8603999358626752622, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8603999358626752622, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8603999358626752622, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8603999358626752622, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8603999358626752622, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8603999358626752622, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8603999358626752622, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8947627131439067860, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+      propertyPath: m_Name
+      value: Coin
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+--- !u!1001 &1300146101
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6233166069334165983, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_Name
+      value: Bola do Perigo (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.9646397
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.632656
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.0009203
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+--- !u!1001 &1370369036
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6233166069334165983, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_Name
+      value: Bola do Perigo (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.632656
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.31
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+--- !u!1001 &1392978535
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6233166069334165983, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_Name
+      value: Bola do Perigo (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.361859
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.632656
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.1223822
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+--- !u!1001 &1425112751
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8603999358626752622, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -8.066069
+      objectReference: {fileID: 0}
+    - target: {fileID: 8603999358626752622, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.879931
+      objectReference: {fileID: 0}
+    - target: {fileID: 8603999358626752622, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.0177746
+      objectReference: {fileID: 0}
+    - target: {fileID: 8603999358626752622, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8603999358626752622, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8603999358626752622, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8603999358626752622, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8603999358626752622, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8603999358626752622, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8603999358626752622, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8947627131439067860, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+      propertyPath: m_Name
+      value: Coin (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+--- !u!1 &1504151957
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1504151959}
+  - component: {fileID: 1504151958}
+  m_Layer: 0
+  m_Name: Som da Moeda
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1504151958
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1504151957}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: de9d6d1c81c52934ba282b532c73c46c, type: 3}
+  m_Resource: {fileID: 8300000, guid: de9d6d1c81c52934ba282b532c73c46c, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &1504151959
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1504151957}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1545587258
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8603999358626752622, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.650575
+      objectReference: {fileID: 0}
+    - target: {fileID: 8603999358626752622, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.87992907
+      objectReference: {fileID: 0}
+    - target: {fileID: 8603999358626752622, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 7.2670593
+      objectReference: {fileID: 0}
+    - target: {fileID: 8603999358626752622, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8603999358626752622, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8603999358626752622, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8603999358626752622, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8603999358626752622, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8603999358626752622, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8603999358626752622, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8947627131439067860, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+      propertyPath: m_Name
+      value: Coin (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b350de854f16f9a48ba51a3c7d309a01, type: 3}
+--- !u!1001 &1621894927
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6233166069334165983, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_Name
+      value: Bola do Perigo (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.949855
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.632656
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.850893
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+--- !u!1001 &1672231499
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6233166069334165983, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_Name
+      value: Bola do Perigo (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -8.378909
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.632656
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.1780672
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+--- !u!1001 &1673577841
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6233166069334165983, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_Name
+      value: Bola do Perigo (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.5407064
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.632656
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.79198074
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+--- !u!1001 &1680544075
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6233166069334165983, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_Name
+      value: Bola do Perigo (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.9610376
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.632656
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.19392395
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+--- !u!1001 &1691504114
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6233166069334165983, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_Name
+      value: Bola do Perigo (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.7621663
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+--- !u!1001 &1755286094
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6233166069334165983, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_Name
+      value: Bola do Perigo (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.1050057
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.632656
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.4418468
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+--- !u!1001 &1815649811
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6233166069334165983, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_Name
+      value: Bola do Perigo
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.5961676
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.632656
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 8.094106
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+--- !u!1001 &1832111675
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6233166069334165983, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_Name
+      value: Bola do Perigo (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.0844674
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.632656
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.041475296
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+--- !u!1001 &1850812379
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6233166069334165983, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_Name
+      value: Bola do Perigo (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.420386
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.632656
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.740101
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+--- !u!1001 &1868236894
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6233166069334165983, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_Name
+      value: Bola do Perigo (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.1805243
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.632656
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -7.5201287
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+--- !u!1001 &1879794759
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6233166069334165983, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_Name
+      value: Bola do Perigo (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.313148
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.632656
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.8800888
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+--- !u!1 &1946764949
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1946764953}
+  - component: {fileID: 1946764952}
+  - component: {fileID: 1946764951}
+  - component: {fileID: 1946764950}
+  m_Layer: 0
+  m_Name: parede esquerda
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &1946764950
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1946764949}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1946764951
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1946764949}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 3c38a3eb872776447855f2a97080d6ae, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1946764952
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1946764949}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1946764953
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1946764949}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -10, y: 0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 21}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1946991172
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6233166069334165983, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_Name
+      value: Bola do Perigo (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.7944303
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.632656
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.8902597
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+--- !u!1001 &1956678501
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6233166069334165983, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_Name
+      value: Bola do Perigo (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.9549932
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.632656
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.392356
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+--- !u!1001 &1959889682
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6233166069334165983, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_Name
+      value: Bola do Perigo (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.3987947
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.632656
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.84350777
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+--- !u!1 &2006679825
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2006679829}
+  - component: {fileID: 2006679828}
+  - component: {fileID: 2006679827}
+  - component: {fileID: 2006679826}
+  m_Layer: 0
+  m_Name: parede de tras
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &2006679826
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2006679825}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &2006679827
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2006679825}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 3c38a3eb872776447855f2a97080d6ae, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &2006679828
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2006679825}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &2006679829
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2006679825}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.5, z: -10}
+  m_LocalScale: {x: 20, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &2083814045
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6233166069334165983, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_Name
+      value: Bola do Perigo (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.2990303
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.632656
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.244645
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+--- !u!1001 &2128899800
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6233166069334165983, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_Name
+      value: Bola do Perigo (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.97502625
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.632656
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.6823473
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758626711528412005, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fbd8de85373a70642819fd67e0a8a881, type: 3}
+--- !u!1001 &4814416267637191728
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1391947051687352281, guid: f02d84323850ad94aabb2d18376ca24d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8.31
+      objectReference: {fileID: 0}
+    - target: {fileID: 1391947051687352281, guid: f02d84323850ad94aabb2d18376ca24d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1391947051687352281, guid: f02d84323850ad94aabb2d18376ca24d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 7.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 1391947051687352281, guid: f02d84323850ad94aabb2d18376ca24d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1391947051687352281, guid: f02d84323850ad94aabb2d18376ca24d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1391947051687352281, guid: f02d84323850ad94aabb2d18376ca24d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1391947051687352281, guid: f02d84323850ad94aabb2d18376ca24d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1391947051687352281, guid: f02d84323850ad94aabb2d18376ca24d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1391947051687352281, guid: f02d84323850ad94aabb2d18376ca24d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1391947051687352281, guid: f02d84323850ad94aabb2d18376ca24d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7113369163190666473, guid: f02d84323850ad94aabb2d18376ca24d, type: 3}
+      propertyPath: m_Name
+      value: Jogador
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f02d84323850ad94aabb2d18376ca24d, type: 3}
+--- !u!1660057539 &9223372036854775807
+SceneRoots:
+  m_ObjectHideFlags: 0
+  m_Roots:
+  - {fileID: 963194228}
+  - {fileID: 705507995}
+  - {fileID: 4814416267637191728}
+  - {fileID: 167624802}
+  - {fileID: 731082297}
+  - {fileID: 2006679829}
+  - {fileID: 1946764953}
+  - {fileID: 720660101}
+  - {fileID: 56323094}
+  - {fileID: 1504151959}
+  - {fileID: 1815649811}
+  - {fileID: 481543491}
+  - {fileID: 883575512}
+  - {fileID: 215029752}
+  - {fileID: 1956678501}
+  - {fileID: 678434854}
+  - {fileID: 1300146101}
+  - {fileID: 1959889682}
+  - {fileID: 698262103}
+  - {fileID: 1673577841}
+  - {fileID: 183925769}
+  - {fileID: 2128899800}
+  - {fileID: 623765297}
+  - {fileID: 1118138177}
+  - {fileID: 976870374}
+  - {fileID: 992741331}
+  - {fileID: 1850812379}
+  - {fileID: 320696119}
+  - {fileID: 1621894927}
+  - {fileID: 1078115655}
+  - {fileID: 200203252}
+  - {fileID: 1832111675}
+  - {fileID: 1370369036}
+  - {fileID: 1088516302}
+  - {fileID: 1227224010}
+  - {fileID: 1680544075}
+  - {fileID: 1946991172}
+  - {fileID: 515047399}
+  - {fileID: 1091405257}
+  - {fileID: 195256972}
+  - {fileID: 1392978535}
+  - {fileID: 2083814045}
+  - {fileID: 1177651875}
+  - {fileID: 885884453}
+  - {fileID: 105196335}
+  - {fileID: 792903615}
+  - {fileID: 543841435}
+  - {fileID: 390381525}
+  - {fileID: 219453271}
+  - {fileID: 803473513}
+  - {fileID: 1868236894}
+  - {fileID: 428899139}
+  - {fileID: 840042522}
+  - {fileID: 812519998}
+  - {fileID: 1691504114}
+  - {fileID: 1879794759}
+  - {fileID: 1672231499}
+  - {fileID: 1249100669}
+  - {fileID: 1755286094}
+  - {fileID: 935632415}
+  - {fileID: 105248382}
+  - {fileID: 1545587258}
+  - {fileID: 1425112751}
+  - {fileID: 263704817}
